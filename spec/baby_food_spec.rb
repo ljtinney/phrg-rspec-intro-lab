@@ -1,7 +1,6 @@
 require "spec_helper"
 
 RSpec.describe BabyFood do
-  # Move your tests into logical groupings with context
 
   it "puts 'num nums' for small peas" do
     expect { BabyFood.new(kind: "peas", size: "small") }.to output("num nums\n").to_stdout
